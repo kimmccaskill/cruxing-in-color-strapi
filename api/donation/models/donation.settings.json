@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "donates",
+  "collectionName": "donations",
   "info": {
-    "name": "Donate"
+    "name": "Donation"
   },
   "options": {
     "increments": true,
@@ -10,10 +10,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Description": {
+    "description": {
       "type": "text"
     }
   }

@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/donates",
-      "handler": "donate.find",
+      "path": "/donations",
+      "handler": "donation.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/donates/count",
-      "handler": "donate.count",
+      "path": "/donations/count",
+      "handler": "donation.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/donates/:id",
-      "handler": "donate.findOne",
+      "path": "/donations/:id",
+      "handler": "donation.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/donates",
-      "handler": "donate.create",
+      "path": "/donations",
+      "handler": "donation.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/donates/:id",
-      "handler": "donate.update",
+      "path": "/donations/:id",
+      "handler": "donation.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/donates/:id",
-      "handler": "donate.delete",
+      "path": "/donations/:id",
+      "handler": "donation.delete",
       "config": {
         "policies": []
       }
