@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "donations",
   "info": {
-    "name": "Donation"
+    "name": "Donation",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,6 +16,24 @@
     },
     "description": {
       "type": "text"
+    },
+    "imageSide": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
