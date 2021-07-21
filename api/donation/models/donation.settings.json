@@ -25,7 +25,8 @@
       ]
     },
     "image": {
-      "type": "string"
+      "type": "text",
+      "required": true
     }
   }
 }
