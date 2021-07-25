@@ -27,6 +27,12 @@
     "image": {
       "type": "text",
       "required": true
+    },
+    "buttonTitle": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "text"
     }
   }
 }
