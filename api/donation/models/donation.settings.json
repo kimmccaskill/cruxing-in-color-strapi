@@ -33,6 +33,18 @@
     },
     "buttonLink": {
       "type": "text"
+    },
+    "testImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
