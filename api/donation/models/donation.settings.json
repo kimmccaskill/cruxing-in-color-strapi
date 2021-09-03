@@ -25,6 +25,16 @@
       ]
     },
     "image": {
+      "type": "text",
+      "required": true
+    },
+    "buttonTitle": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "text"
+    },
+    "testImage": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -33,7 +43,8 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
