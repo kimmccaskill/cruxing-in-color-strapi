@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organizers",
+  "info": {
+    "name": "organizer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "img": {
+      "type": "text"
+    }
+  }
+}
