@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "textBlock1": {
+      "type": "string"
+    },
+    "textBlock2": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    }
+  }
+}

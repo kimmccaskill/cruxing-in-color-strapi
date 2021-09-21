@@ -25,6 +25,9 @@
     },
     "buttonLink": {
       "type": "string"
+    },
+    "description": {
+      "type": "string"
     }
   }
 }
